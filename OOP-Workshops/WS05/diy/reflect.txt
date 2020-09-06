@@ -1,0 +1,15 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	Feb, 11 2020
+//==============================================
+// 		Workshop 5_Reflect
+//==============================================
+	
+	In this workshop, I learned how to build a compositional relationship by putting engine class inside of the ship class. I also learned how to allocate and deallocate the dynamic memory used by both ship type character and engine arrays. Most importantly, I learned to define a series of overloaded operators to evaluate the expressions with the operands of the ship class.
+	
+	By default, C++ has built-in operators to perform the expressions of the operands of fundamental types. When we want to perform the same tasks with the operands of user-defined classes, we need to overload the existing set of operators so that they understand how to interact with the objects of the class.
+	
+	In general, there are two ways to overload the operators. Firstly, we can define the member function to overload the operator. It is best to use this method if the value of left operand changes or updates – that is, when the operand is incremented (++), decremented (--), and so on. In contrast, when neither of two operands changes, it is best to utilize the helper function. For example, we can use the overloaded == operator to check whether two objects are identical or not.
