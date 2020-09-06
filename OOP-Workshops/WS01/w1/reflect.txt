@@ -1,0 +1,12 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	January 14, 2020
+//==============================================
+// 		Workshop 1_Reflect
+//==============================================
+	In this workshop, I learned how to divide the WordStat Program into separate modules using header and implementation files. I also learned how to implement compilation safeguards to prevent multiple inclusion of header files. 
+	I felt that I need to study more about the new syntax in C++ language as I had a difficult time to understand new concepts, especially the namespace. In addition, I had to define programTitle( ) function to Word.h header file as I had to retain the original WordStat.cpp file. Personally, I think programTitle( ) function needs to be defined in the helper function. 
+	Overall, it was great experience to explore the C++ language for the first time.
