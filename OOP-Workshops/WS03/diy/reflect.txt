@@ -1,0 +1,19 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	Feb, 2 2020
+//==============================================
+// 		Workshop 3_Reflect
+//==============================================
+	In this workshop, I learned how to privatize the data by using the class type. I also learned how to access the data within the object of class type using public member functions. Additionally, I learned to use the public member functions of ostream type in order to format data output effectively.
+	
+	The purpose of an empty state is to ensure the object has a valid data from the time of its creation. If the incoming data does not satisfy the conditions, we can reject the data and set the object with default values that indicate the empty state of an object. For example, we can use the value of 0 or -1 in train ID to identify the object’s state as an empty state.
+	
+	In C++, both struct and class are used to encapsulate the data and the logic within a single object. By default, the struct type is public - the data and the logic are freely accessible to client code. However, the class type is private by default - any attempt to access its private data and functions are prohibited but only possible with the use of public member function of its class.
+	
+	The data privacy is vital in encapsulation of object-oriented programming. By using class type, we limit the access of any data and member functions. In this way, we prevent the possible changes to the internal workings of the object and thus avoid jeopardizing them of being unknown or broken states.
+
+
+
