@@ -1,0 +1,14 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	January 22, 2020
+//==============================================
+// 		Workshop 2_Reflect
+//==============================================
+	In this workshop, I learned how to use a reference during the function call so that the original object or variable is passed rather than a copy. In addition, I learned how to allocate and deallocate dynamic memory for the array. In this way, I was able to allocate the size of the array at run-time. The overloaded gifting functions are also implemented with different parameters and definitions in order to execute various gifting operations in the program.
+The static memory is assigned by the operating system at load time. Its size maintains until the program ends without any changes. In contrast, the dynamic memory can be obtained from the system during run-time of the application. Unlike static memory, the user has to manually manage deallocation of the dynamic memory to avoid the fatal application error and memory leaks.  
+In this program, 4 overloaded functions are used with the same identifier name, gifting. However, each function has differing meaning as it takes different parameters list and contains separate definition. For example, void gifting(char* desc) is used to store the gift’s description while void gifting(double& price) is used to store the gift’s price.
+
+
