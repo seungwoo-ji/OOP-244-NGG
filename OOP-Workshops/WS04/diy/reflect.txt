@@ -1,0 +1,14 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	Feb, 9 2020
+//==============================================
+// 		Workshop 4_Reflect
+//==============================================
+	
+	In this workshop, I learned how to utilize a constructor to assign the object to be a safe empty state. I also learned how to use an overloaded constructor to set the information from the user to the object. Moreover, I learned to define a destructor that deallocate the memory from the object with dynamically allocated memory before the memory leak occurs.
+	In C++, it is critical to understand the flow of how the compiler assembles an object. The constructor precedes any other member function when creating an instance of the class. In contrast, an object’s destructor starts its execution only after its member functions are called. Similarly, when there are multiple objects to be created and destroyed, the destructor operates in the opposite order of the constructor. 
+	The constructor is also vital to initialize the data members when the object is created. This is because its data members contain undefined values before its modifier function assigns the actual data to the object. These undefined values can potentially break the code when the program accidentally calls the object before its initialization. Thus, it is very important to assign the object with safe empty state at creation-time.
+	Lastly, I make a function called powerdown to return the Saiyans’ power levels to their original states. I know it is not necessary as the main function sets their power back to their original states, but I think it makes much more sense when considering how the battle mechanism works in Dragon Ball. I also think it is best to combine powerdown and powerup functions together as their jobs are similar to each other. However, I decide not to do it as it requires another parameter in the function and I want to retain the original format just like the one in the manual.
