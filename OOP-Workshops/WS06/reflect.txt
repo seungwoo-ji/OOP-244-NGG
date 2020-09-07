@@ -1,0 +1,15 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	March, 08 2020
+//==============================================
+// 		Workshop 6_Reflect
+//==============================================
+	
+	In this workshop, I learned how to build a copy constructor and copy assignment operator in order to accomplish the deep copy and deep assignment of an object. In this way, I was able to create or assign a new object by using the existing object with dynamic resource. Furthermore, I learned to overload << operator to make use of the object’s display function. By doing so, I could display the output of the object straight into the output-stream object, cout.
+
+	The shallow copying and assigning is very useful when managing the copy of the object with the non-dynamic instance variables. However, when an object with resources are shallow copied, two objects would share the exact same dynamic resources – that is, affecting the dynamic resource instance can affect the other’s dynamic resource. We must implement additional logic to avoid this situation as we want the objects to be independent of each other. 
+	
+	Hence, we have to code the copy constructor and copy assignment operator so that we can handle a class with resources. Using these special functions, the dynamic resource of an object would be only specific to that object while the copy of the object holds different memory address for the same dynamic variable.
