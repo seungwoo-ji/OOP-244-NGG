@@ -41,3 +41,29 @@ In this workshop, I learned:
 * manage dynamic memory within a class
 * overload an operator as a member of a class
 * overload an operator as a helper function of a class
+
+## Workshop 6: Class with a Resource
+
+
+In this workshop, I learned:
+* To implement a copy constructor and copy assignment operator
+* To manage a class with dynamic resources
+* To use existing objects to create new ones or to assign values to existing objects based on other existing ones.
+* To implement custom input/output operators.
+
+## Workshop 7: Derived Classes & Custom I/O Operators
+
+
+In this workshop, I learned:
+* Inherit a derived class from a base class
+* Shadow a base class member function with a derived class member function
+* Access a shadowed member function that is defined in a base class
+* Utilize custom input/output operators with these classes
+
+## Workshop 8: Virtual Functions
+
+
+In this workshop, I learned:
+* define a pure virtual function
+* code an abstract base class
+* implement behavior declared in a pure virtual function
