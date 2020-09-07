@@ -1,0 +1,14 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	April 5, 2020
+//==============================================
+// 		Workshop 9 & Milestone Reflect
+//==============================================
+	In the workshop 9, I learned how to implement a parametric polymorphism by utilizing the template keyword. In this way, the template class can make use of the same logic for different types of data. For example, we can create the double and integer NumbersBox classes so that each holds an array of the double and integer type items accordingly. By doing so, the complier can generate the same template class for different type at compile time.
+
+	The parametric polymorphism can greatly reduce the repetition of codes by reusing the identical logic independent of the data type. When declaring and defining the template syntax, it is the most preferable way to do so in a single header file instead of separating them into a header file and an implementation file. This is because the compiler is unable to generate the code when the template definition is separated from its declaration. You can still walk around this by doing additional works so that we let the compiler knows how to build the template definition according to the client code, but it is not generally suggested because it requires unnecessary codes that negate the point of having the parametric polymorphism.
+
+	In milestone 4 and 5, I learned how to make multiple derived classes using the same abstract base class. As a whole, I was able to experience the vast advantage of having inheritance and inclusion polymorphism because the overall code became a lot simpler when compared to the codes in the early semester. The most difficult thing to manage throughout this milestone is to control the input buffer and I am still uncertain whether I managed it successfully or not.
