@@ -67,3 +67,11 @@ In this workshop, I learned:
 * define a pure virtual function
 * code an abstract base class
 * implement behavior declared in a pure virtual function
+
+## Workshop 9: Templates
+
+
+In this workshop, I learned:
+* To code a templated class
+* To specify the type to implement in a call to a templated class
+* To specify a constant numeric parameter to a templated class
