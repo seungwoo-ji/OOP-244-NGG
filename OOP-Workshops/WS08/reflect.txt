@@ -1,0 +1,16 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	March, 29 2020
+//==============================================
+// 		Workshop 8 & Milestone Reflect
+//==============================================
+	In the workshop 8, I learned how to build an abstract base class by utilizing pure virtual functions. Using these functions, the abstract base class, Employee, provides an interface to which its concrete classes, Doctor and Engineer, give meanings. In this way, the compiler is able to bind a function call to a specific logic accordingly to the matching type of an object within the same inheritance hierarchy. 
+
+	The usage of an abstract base class along with its pure virtual functions are an example of the polymorphism. Polymorphism is one of the three pivotal concepts in object-oriented programming. By using this feature, we are able to add a number of different behaviours to a single identifier and thus, can significantly reduce the length of the program as well as avoid the repetition of codes. In addition to it, an abstract base class can function as a crisp interface so that  the client code has no ideas about the implementation code within the hierarchy. 
+
+	In milestone 2, I made use of the Menu modules that I coded previously. Its core features are yet to be implemented until the end of the milestone. Thus, I made a rough job by utilizing the switch logic so that it displays the menu properly.
+
+	However, in milestone 3, I learned to apply the knowledge of an abstract base class and its virtual member functions to my own program. It was an interesting challenge overall, but I was not sure if the program lacks of certain details that I missed. It would be tremendously helpful if you provide me any suggestions.
