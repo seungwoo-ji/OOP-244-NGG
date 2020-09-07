@@ -1,0 +1,16 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	March, 16 2020
+//==============================================
+// 	Workshop 7 & Milestone 1_Reflect
+//==============================================
+	In the workshop 7, I learned how to form an is-a-kind-of relationship between the derived class and the base class. In this way, the derived class inherits the structure of the base class and is able to avoid the repetition of coding. I also learned how to access the base member function that is shadowed by one with the same identifier in the derived class using scope resolution.
+	
+	The inheritance is one of the most prominent concepts in object-oriented programming and follows the hierarchical structural relationship. That is, the derived class inherits the entire structure of its base class – we only provide new member to the derived class on top of the existing member of the base class, thereby reducing the repetition of codes.
+	
+	In the milestone 1, I learned how to create two fully private classes so that one class owns the other class by granting friendship. In this way, the master class can freely access to its slave class members – a situation where we have to avoid as it violates the encapsulation concept of object-oriented programming. 
+
+	Throughout this milestone, I had a great difficulty to manage the dynamic resources as I allocate multiple dynamic memories to solve the problem. Therefore, I have to consider every possibility that can cause memory leak, double deletion, or accessing the memory that is not allocated. One of the preventative methods I make is to ensure initialising the pointers of MenuItems to nullptrs. To do so, I make personalized function called initItems.
