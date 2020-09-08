@@ -75,3 +75,8 @@ In this workshop, I learned:
 * To code a templated class
 * To specify the type to implement in a call to a templated class
 * To specify a constant numeric parameter to a templated class
+
+## Milestone Project: Seneca Valet Application
+
+the project is to create an application that keeps track of a Valet Parking that can park Cars, Motorcycles and Busses in a parking and retrieve them back when requested.
+
