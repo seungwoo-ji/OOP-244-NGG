@@ -1,0 +1,13 @@
+//==============================================
+// Name:		Seung Woo Ji
+// Student Number: 	116376195
+// Email:          	swji1@myseneca.ca
+// Course:         	OOP244 NGG
+// Date:           	April 13, 2020
+//==============================================
+// 		Milestone 6 Reflect
+//==============================================
+	
+Overall, I had a great time to deal with the conditional jumps and uninitialized value errors as well as managing the memory leakage. That was amazing after I found out that I made a mistake to place a round bracket instead of the square bracket. Honestly, I spent 4 hours for that one error and found it by individually testing one line of the code using valgrind within the matrix.
+
+Jokes aside, it was pleasure to learn from you Michael. It's unfortunate that we could not hang out for the last few weeks in the lab because of this COVID situation. You have been great teacher as compared to the others.I hope I meet a good professor for the next OOP course because it is even harder than 244. Anyway, stay safe and see you on next fall semester!   
